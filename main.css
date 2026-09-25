@@ -30,17 +30,6 @@
 }
 
 
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --ink:#f1efe9;
-    --paper:#15181a;
-    --panel:#1e2225;
-    --line:#33383c;
-    --accent:#7fb69f;
-    --accent-ink:#0f1211;
-    --error:#e08a78;
-    --muted:#9a978c;
-  }
 
 h1{
   font-size:1.5rem;
