@@ -6,94 +6,74 @@
     <title>Level-up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
     <header>
-        <!-- Navbar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#">Level-Up</a>
-        <button class="navbar-toggler" type="button" data-coreui-toggle="collapse" data-coreui-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="/products.html">Products</a>
-            </li>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div id="header">
+            <div class="contact">
+                <a href="">+569 669 90 493</a>
+                <span>Leveluptienda@gmail.com</span>
+            </div>
+            <div class="location">
+                <span>San Bernardo, Santiago Chile</span>
+            </div>
         </div>
-        </div>
-        </nav>
-    <!-- Carousel   -->
-            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./image/Wolverine.webp" class="d-flex w-50 mx-auto" alt="Wolverine">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/gta6.webp" class="d-flex w-50 mx-auto" alt="GTA 6">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/notebookcarousel.jpeg" class="d-flex w-50 mx-auto" alt="PC">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/pc.jpeg" class="d-flex w-50 mx-auto" alt="PC">
-                </div>
+        <!--Navbar-->
+
+        <nav id="navbar">
+            <div class="logo">
+                <img src="/image/logo.png" alt="logo">
+            </div>
+            <div class="links mx-auto">
+                <a class="link" href="/index.html">Inicio</a>
+                <a class="link" href="#">Productos</a>
+                <a class="link" href="#">Eventos</a>
                 
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
 
             </div>
-            <!-- Cards -->
-            <div class="cards">
-                <div class="card">
-                <img src="/image/cards1.jpeg" class="card-img-top " alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Grand Theft Auto VI</h5>
-                    <p class="card-text">Reserva ya el nuevo juego de Rockstar Games</p>
-                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                </div>
-                </div>
-                <div class="card">
-                <img src="/image/cards2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Monitor Asus TUF</h5>
-                    <p class="card-text">Monitor gaming de 27 pulgadas con tasa de refresco de 144Hz</p>
-                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                </div>
-                </div>
-                <div class="card">
-                <img src="/image/cards3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Msi RTX 5060 12gb</h5>
-                    <p class="card-text">Tarjeta gráfica RTX 5060 con 12GB de memoria GDDR6</p>
-                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                </div>
+            <div class="login">
+                <a class="link" href="#">Iniciar Sesion</a>
+                <a class="link" href="#">Registrarse</a>
+
             </div>
+        </nav>
+
+
+    </header>
+    
+    <main>
+        <!-- Carousel   -->
+        
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./image/Wolverine.webp" class="d-flex w-50 mx-auto" alt="Wolverine">
+            </div>
+            <div class="carousel-item">
+                <img src="./image/gta6.webp" class="d-flex w-50 mx-auto" alt="GTA 6">
+            </div>
+            <div class="carousel-item">
+                <img src="./image/notebookcarousel.jpeg" class="d-flex w-50 mx-auto" alt="PC">
+            </div>
+            <div class="carousel-item">
+                <img src="./image/pc.jpeg" class="d-flex w-50 mx-auto" alt="PC">
             </div>
             
-
-
-
-
-    
-    </header>
-    <main></main>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+        
+        </div>
+    </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
