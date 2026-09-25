@@ -28,4 +28,77 @@
     align-items: center;
     margin-top: 50px;
 }
+/* h2{
+    color: white;
+}
+.login-container h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.login-container .login{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+} */
 
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#f1efe9;
+    --paper:#15181a;
+    --panel:#1e2225;
+    --line:#33383c;
+    --accent:#7fb69f;
+    --accent-ink:#0f1211;
+    --error:#e08a78;
+    --muted:#9a978c;
+  }
+
+h1{
+  font-size:1.5rem;
+  font-weight:600;
+  margin:0 0 6px;
+  letter-spacing:0.01em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+
+p.sub{
+  margin:0 0 28px;
+  color:white;
+  font-size:0.95rem;
+}
+
+label{
+  display:block;
+  font-size:0.85rem;
+  margin-bottom:6px;
+  color:gray;
+}
+
+.field{ margin-bottom:18px; }
+
+input[type="email"], input[type="password"]{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid #39FF14;
+  background: gainsboro;
+  color:black;
+  outline:none;
+  border-radius: 40px;
+}
+button{
+  width:100%;
+  padding:12px;
+
+  font-weight:600;
+  background:#1E90FF;
+  color: white;
+  border:none;
+  cursor:pointer;
+  border-radius: 40px;
+}
