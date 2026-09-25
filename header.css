@@ -10,28 +10,57 @@
     align-items: center;
     gap: 12px;
 }
-#navbar{
-    background-color: white;
-    padding: 24px 40px 24px 40px;
-    border-radius: 40px;
+.navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0.75rem 2rem;
+    background: gainsboro;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 40px;
 }
 
-#navbar .logo img{
-    height: 70px;
+.logo img {
+    height: 40px;
+    display: block;
 }
 
-#navbar .links{
+.links {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    gap: 2rem;
+    margin: 0 auto;
 }
 
-#navbar .login{
+.login {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
+
+.link {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    padding: 0.4rem 0.2rem;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background: #1E90FF;
+}
+
+.btn-primary::after {
+    display: none;
+}
+

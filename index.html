@@ -22,21 +22,22 @@
         </div>
         <!--Navbar-->
 
-        <nav id="navbar">
+        <nav id="navbar" class="navbar">
             <div class="logo">
-                <img src="/image/logo.png" alt="logo">
+                <img src="/image/logo.png" alt="Nombre de la empresa">
             </div>
-            <div class="links mx-auto">
+
+
+
+            <div class="links" id="nav-links">
                 <a class="link" href="/index.html">Inicio</a>
                 <a class="link" href="#">Productos</a>
                 <a class="link" href="#">Eventos</a>
-                
-
             </div>
-            <div class="login">
-                <a class="link" href="#">Iniciar Sesion</a>
-                <a class="link" href="#">Registrarse</a>
 
+            <div class="login">
+                <a class="link" href="#">Iniciar sesión</a>
+                <a class="link btn-primary" href="#">Registrarse</a>
             </div>
         </nav>
 
@@ -57,21 +58,38 @@
             <div class="carousel-item">
                 <img src="./image/notebookcarousel.jpeg" class="d-flex w-50 mx-auto" alt="PC">
             </div>
-            <div class="carousel-item">
-                <img src="./image/pc.jpeg" class="d-flex w-50 mx-auto" alt="PC">
-            </div>
             
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        
-        
+
+        <div class="titulo2">
+            <h2>NOTICIAS</h2>
+        </div>
+
+        <!--Cards-->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="/image/cards1.jpeg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Grand Theft Auto VI</h5>
+                <p class="card-text">El lanzamiento oficial de Grand Theft Auto VI (GTA 6) está programado para el 19 de noviembre de 2026. El videojuego de Rockstar Games estará disponible inicialmente en exclusiva para las consolas de nueva generación: PlayStation 5 y Xbox Series X|S. Por el momento, no se ha confirmado una fecha oficial para su versión de PC.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/image/kojimacard.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Kojima VS PlayStation</h5>
+                <p class="card-text">PlayStation canceló unilateralmente el desarrollo de Physint, el próximo gran juego de espionaje de Hideo Kojima, debido a presuntos retrasos y sobrecostos. Tras el quiebre, Xbox rescató el proyecto en el Tokyo Game Show 2026 y se convirtió en su nuevo distribuidor oficial. Aunque el director japonés afirmó no guardar rencor a Sony, el futuro del título en consolas PlayStation ahora depende exclusivamente de Microsoft.</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/image/coxoncard.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">¿La IA puede acabar con la humanidad?</h5>
+                <p class="card-text">Jacob Coxon es un investigador franco-británico de 27 años especializado en inteligencia artificial. Recientemente se volvió el centro de la atención internacional tras renunciar públicamente a Anthropic y lanzar una severa advertencia global: según sus proyecciones, la IA "podría matarnos a todos" para el año 2030.</p>
+                </div>
+
+            </div>
         </div>
     </main>
     <footer></footer>
