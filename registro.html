@@ -54,33 +54,40 @@
 
             <div class="login">
                 <a class="link" href="/iniciarSesion.html">Iniciar sesión</a>
-                <a class="link btn-primary" href="#">Registrarse</a>
+                <a class="link btn-primary" href="/registro.html">Registrarse</a>
             </div>
         </nav>
 
     </header>
 
     <main>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Fecha de Nacimiento" aria-label="Fecha de Nacimiento">
-            </div>
-            <form class="row g-3">
-                <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email">
-                </div>
-                <div class="col-md-6">
 
-                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña">
-                </div>
+        <h1>Registro de Usuario</h1>
+            <p class="sub">Completa el formulario para crear tu cuenta</p>
+            <form id="registroForm" novalidate>
+            <div class="field">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" required >
+            </div>
+            <div class="field">
+                <label for="fullname">Nombre completo</label>
+                <input type="text" id="fullname" name="fullname" required >
+            </div>
+            <div class="field">
+                <label for="birthdate">edad</label>
+                <input type="number" id="edad" name="edad" required>
+            </div>
+            <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required autocomplete="username">
+            </div>
+            <div class="field">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password" minlength="6">
+            </div>
+            <button type="submit">Registrarse</button>
             </form>
-        </div>
+        
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
