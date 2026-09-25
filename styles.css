@@ -1,0 +1,13 @@
+.cards{
+    margin-top: 50px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items:column;
+}
+
+.card-img-top{
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
