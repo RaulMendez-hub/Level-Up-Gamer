@@ -10,16 +10,20 @@
     align-items: center;
     gap: 12px;
 }
+#header .wsp{
+    text-decoration: none;
+    color: #39FF14;
+
+}
+#header .logos{
+    width: 40px;
+}
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.75rem 2rem;
-    background: gainsboro;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    background: gray;
     border-radius: 40px;
 }
 
@@ -64,3 +68,43 @@
     display: none;
 }
 
+/* 1. Estado inicial del menú: OCULTO */
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Se posiciona justo debajo del texto "Servicios" */
+    left: 0;
+    display: none; /* Lo esconde por completo */
+    background-color: gray; /* Color de fondo del menú */
+    list-style: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+}
+
+/* Necesario para que el menú se posicione correctamente respecto a "Servicios" */
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown .drop{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+/* 2. ¿Cómo desplegar?: Al hacer HOVER en el padre, se MUESTRA el hijo */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Cambia a visible al pasar el mouse */
+}
+
+/* Estilos opcionales para los enlaces de adentro */
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1; /* Efecto hover para las opciones de adentro */
+}
