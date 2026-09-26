@@ -77,7 +77,84 @@
     </header>
     
     <main>
+            <div class="titulo1">
+            <h1>CARRITO DE COMPRAS</h1>
+        </div>
+        <div class="consolas" id="carrito-items">
 
+            <div class="card" data-precio="799990">
+                <img src="/image/ps5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Playstation 5</h5>
+                    <p class="card-text">Bundle con SSD de 1 TB, gatillos adaptativos y audio 3D. Incluye Astro Bot + Gran Turismo 7 de regalo. No incluye unidad óptica de disco.</p>
+                    <div class="cantidad">
+                        <button type="button" class="btn btn-secondary btn-menos">−</button>
+                        <input type="number" class="form-control input-cantidad" value="1" min="1">
+                        <button type="button" class="btn btn-secondary btn-mas">+</button>
+                    </div>
+                    <p class="precio-unitario">Precio unitario: $799.990</p>
+                    <p class="subtotal">Subtotal: <span class="monto">$799.990</span></p>
+                    <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
+                </div>
+            </div>
+
+            <div class="card" data-precio="679990">
+                <img src="/image/xbox.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">XBOX serie X</h5>
+                    <p class="card-text">Procesador personalizado de 7 nm con microarquitecturas Zen 2 y RDNA 2 de AMD, para la máxima potencia gráfica y velocidad de carga.</p>
+                    <div class="cantidad">
+                        <button type="button" class="btn btn-secondary btn-menos">−</button>
+                        <input type="number" class="form-control input-cantidad" value="1" min="1">
+                        <button type="button" class="btn btn-secondary btn-mas">+</button>
+                    </div>
+                    <p class="precio-unitario">Precio unitario: $679.990</p>
+                    <p class="subtotal">Subtotal: <span class="monto">$679.990</span></p>
+                    <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
+                </div>
+            </div>
+
+            <div class="card" data-precio="549900">
+                <img src="/image/switch.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nintendo Switch 2</h5>
+                    <p class="card-text">Consola híbrida de nueva generación, con gráficos HD mejorados y retrocompatibilidad con títulos de Switch original.</p>
+                    <div class="cantidad">
+                        <button type="button" class="btn btn-secondary btn-menos">−</button>
+                        <input type="number" class="form-control input-cantidad" value="1" min="1">
+                        <button type="button" class="btn btn-secondary btn-mas">+</button>
+                    </div>
+                    <p class="precio-unitario">Precio unitario: $549.900</p>
+                    <p class="subtotal">Subtotal: <span class="monto">$549.900</span></p>
+                    <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
+                </div>
+            </div>
+
+            <div class="card" data-precio="649990">
+                <img src="/image/deck.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Valve Steam Deck Oled</h5>
+                    <p class="card-text">Pantalla OLED, APU de 6nm más eficiente, mayor batería y conectividad ultrarrápida en el dispositivo portátil de Steam.</p>
+                    <div class="cantidad">
+                        <button type="button" class="btn btn-secondary btn-menos">−</button>
+                        <input type="number" class="form-control input-cantidad" value="1" min="1">
+                        <button type="button" class="btn btn-secondary btn-mas">+</button>
+                    </div>
+                    <p class="precio-unitario">Precio unitario: $649.990</p>
+                    <p class="subtotal">Subtotal: <span class="monto">$649.990</span></p>
+                    <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="resumen-carrito">
+            <h4 class="titulo2">Resumen del pedido</h4>
+            <p class="titulo2">Subtotal: <span id="carrito-subtotal">$0</span></p>
+            <p class="titulo2">Envío: <span id="carrito-envio">Gratis</span></p>
+            <h5 class="titulo2">Total a pagar: <span id="carrito-total">$0</span></h5>
+            <a class="pago mx-auto" href="https://www.webpay.cl/form-pay" class="btn btn-primary btn-lg">Proceder al pago</a>
+        </div>
 
     </main>
     <footer></footer>

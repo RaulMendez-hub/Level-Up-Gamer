@@ -119,3 +119,13 @@ button{
   text-decoration: none;
   color: #39FF14;
 }
+.pago{
+  display: flex;
+  justify-content: center;
+  background-color: #2563eb;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius:40px;
+  margin-top: 20px;
+  max-width: 300px;
+}
