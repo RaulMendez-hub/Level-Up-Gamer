@@ -1,11 +1,16 @@
 body{
     padding: 10px 100px 10px 100px;
-    border: 50px solid gray;
+    border: 1px solid gray;
     height: 500vh;             
     box-sizing: border-box;   
     margin: 0;                 
     background-color: black;
+    font-family: 'Roboto';
 }
 span{
     color:white;
+}
+
+header{
+    font-family: 'Orbitron';
 }
