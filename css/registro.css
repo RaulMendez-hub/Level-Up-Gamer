@@ -66,3 +66,23 @@
     background-color: #39FF14;
     color: black;
 }
+
+.login-link {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #39FF14;
+    text-decoration: none;
+}
+
+.login-link a {
+    text-decoration: underline;
+}
+
+#mensajeRegistro {
+    text-align: center;
+}
