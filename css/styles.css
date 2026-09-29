@@ -6,6 +6,11 @@ body{
     margin: 0;                 
     background-color: black;
 }
+
 span{
     color:white;
+}
+
+header{
+    font-family: 'Orbitron';
 }
