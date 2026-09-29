@@ -108,3 +108,13 @@
 .dropdown-menu a:hover {
     background-color: #f1f1f1; /* Efecto hover para las opciones de adentro */
 }
+
+#user{
+    width: 60px;
+    height: 40px;
+}
+
+.dropes{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,21 @@
+.registro-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 20px 80px;
+}
+
+.registro-box {
+    width: 100%;
+    max-width: 500px;
+}
+
+.registro-box h1 {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-family: 'Orbitron';
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
