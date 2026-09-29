@@ -14,6 +14,14 @@ formulario.addEventListener("submit", function(event) {
         confirmPassword.setCustomValidity(""); 
     }
 
+    // Activar las validaciones de Bootstrap
+    formulario.classList.add("was-validated");
+
+    // Comprobar si el formulario tiene errores 
+    if (!formulario.checkValidity()) { 
+        return; 
+    }
+
     // Mostrar mensaje de registro exitoso 
     mensaje.classList.remove("d-none");
     mensaje.classList.remove("alert-danger");
@@ -25,7 +33,7 @@ formulario.addEventListener("submit", function(event) {
     console.log( "Nombre:", document.getElementById("nombre").value );
     console.log( "Apellido:", document.getElementById("apellido").value );
     console.log( "Correo:", document.getElementById("email").value );
-    
+
     // Limpiar el formulario
     formulario.reset();
     formulario.classList.remove("was-validated");
