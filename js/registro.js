@@ -19,5 +19,14 @@ formulario.addEventListener("submit", function(event) {
     mensaje.classList.remove("alert-danger");
     mensaje.classList.add("alert-success");
     mensaje.textContent = "¡Registro exitoso! Tu cuenta ha sido creada.";
+
+    // Mostrar los datos en la consola solo para demostrar que JavaScript recibió los datos 
+    console.log("Usuario registrado");
+    console.log( "Nombre:", document.getElementById("nombre").value );
+    console.log( "Apellido:", document.getElementById("apellido").value );
+    console.log( "Correo:", document.getElementById("email").value );
     
+    // Limpiar el formulario
+    formulario.reset();
+    formulario.classList.remove("was-validated");
 });
