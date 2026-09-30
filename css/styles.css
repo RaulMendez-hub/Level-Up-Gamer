@@ -1,0 +1,20 @@
+:root {
+  --gray-50: #f7f8f9;
+  --gray-100: #f3f4f6;
+  --gray-200: #e6e7ea;
+  --gray-300: #d2d5da;
+  --gray-400: #9fa4ac;
+  --gray-500: #6e737d;
+  --gray-600: #4e5660;
+  --gray-700: #3b424d;
+  --gray-800: #222a34;
+  --gray-900: #141924;
+  --gray-950: #050810;
+}
+
+body {
+  background: var(--gray-50);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
