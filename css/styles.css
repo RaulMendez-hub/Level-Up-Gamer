@@ -1,16 +1,30 @@
 body{
     padding: 10px 100px 10px 100px;
-    border: 10px solid gray;
+    border: 1px solid gray;
     height: 500vh;             
     box-sizing: border-box;   
     margin: 0;                 
     background-color: black;
+    font-family: 'Roboto';
 }
-
 span{
     color:white;
 }
 
 header{
     font-family: 'Orbitron';
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+footer{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
