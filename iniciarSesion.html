@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/init.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -80,23 +81,34 @@
     <main class="log">      
             <h1>Iniciar sesión</h1>
             <p class="sub">Ingresa tus credenciales para continuar</p>
+            <p class="nota"><span class="req">*</span> Campo obligatorio</p>
+
             <form id="loginForm" novalidate>
-            <div class="field">
-                <label for="email">Correo electrónico</label>
-                <input type="email" id="email" name="email" required autocomplete="username">
-            </div>
-            <div class="field">
-                <label for="password">Contraseña</label>
-                <input type="password" id="password" name="password" required autocomplete="current-password" minlength="6">
-            </div>
-                <label><input type="checkbox" id="remember"> Recordarme</label>
-                <a href="#" id="forgotLink">¿Olvidaste tu contraseña?</a>
-            </div>
-            <button type="submit">Entrar</button>
+                <div class="field">
+                    <label for="email">Correo electrónico <span class="req">*</span></label>
+                    <input type="email" id="email" name="email" required aria-required="true"
+                        autocomplete="username" placeholder="ejemplo@correo.com">
+                    <small class="error" id="emailError"></small>
+                </div>
+
+                <div class="field">
+                    <label for="password">Contraseña <span class="req">*</span></label>
+                    <input type="password" id="password" name="password" required aria-required="true"
+                        autocomplete="current-password" minlength="6">
+                    <small class="error" id="passwordError"></small>
+                </div>
+
+                <div class="options">
+                    <label><input type="checkbox" id="remember"> Recordarme</label>
+                </div>
+
+                <button type="submit">Entrar</button>
             </form>
         
     </main>
-    <footer></footer>
+    <footer><p>&copy; 2026 Level Up Gamer. Todos los derechos reservados.</p></footer>
+
+    <script src="/js/initsesion.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     
