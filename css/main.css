@@ -129,3 +129,15 @@ button{
   margin-top: 20px;
   max-width: 300px;
 }
+.registro-box .form-hint{
+  color: rgb(149, 149, 149);
+}
+.registro-box .discount{
+  color: rgb(149, 149, 149);
+}
+.nota{
+  color: #39FF14;
+}
+#avisoDescuento{
+  display: none;
+}
