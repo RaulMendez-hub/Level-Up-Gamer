@@ -85,23 +85,11 @@
                 <div class="dropdown">
 
                     <img id="user" class="btn-primary" src="/image/user.webp" alt="Usuario">
-<<<<<<< HEAD
                     <ul class="dropdown-menu">
                         <li><a href="/iniciarSesion.html"> Iniciar Sesion </a></li>
                         <li><a href="/registro.html"> Registro </a></li>
                         <li><a href="/perfil.html"> Perfil </a></li>
                         <li><a href="/index.html"> Cerrar Sesion </a></li>
-                    </ul>
-=======
->>>>>>> Raul-Mendez
-
-                    <ul class="dropdown-menu">
-
-                        <li><a href="/iniciarSesion.html">Iniciar Sesion</a></li>
-                        <li><a href="/registro.html">Registro</a></li>
-                        <li><a href="/perfil.html">Perfil</a></li>
-                        <li><a href="/index.html">Cerrar Sesion</a></li>
-
                     </ul>
                 </div>
 
@@ -194,36 +182,6 @@
 
                 </div>
 
-                <!-- region -->
-                <div class="mb-3">
-
-                    <label for="region" class="form-label"> Región <span class="required">*</span> </label>
-                    <select id="region" class="form-select" required><option value=""> Selecciona una región </option></select>
-                    
-                    <div class="invalid-feedback"> Selecciona una región </div>
-
-                </div>
-
-                <!-- comuna -->
-                <div class="mb-3">
-
-                    <label for="comuna" class="form-label">Comuna <span class="required">*</span></label>
-                    <select id="comuna" class="form-select" disabled required><option value="">Selecciona primero una región</option></select>
-                    
-                    <div class="invalid-feedback"> Selecciona una comuna </div>
-
-                </div>
-
-                <!-- direccion -->
-                <div class="mb-3">
-
-                    <label for="direccion" class="form-label"> Dirección <span class="required">*</span> </label>
-                    <input type="text" class="form-control" id="direccion" maxlength="300" placeholder="Calle, número, depto/casa" required>
-                    
-                    <div class="invalid-feedback"> Ingresa tu dirección </div>
-
-                </div>
-
                 <!-- codigo de referido -->
                 <div class="mb-3">
 
@@ -241,6 +199,15 @@
                     <label class="form-check-label" for="terminos"> Acepto los términos y condiciones </label>
                     
                     <div class="invalid-feedback"> Debes aceptar los términos y condiciones </div>
+                
+                </div>
+                <!--Soy mayor de edad-->
+                <div class="form-check mb-4">
+
+                    <input class="form-check-input" type="checkbox" id="terminos" required>
+                    <label class="form-check-label" for="terminos"> Eres mayor de edad </label>
+                    
+                    <div class="invalid-feedback"> Debes ser mayor de edad </div>
                 
                 </div>
 
