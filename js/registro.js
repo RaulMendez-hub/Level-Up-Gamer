@@ -22,30 +22,6 @@ formulario.addEventListener("submit", function(event) {
         return;
     }
 
-function notificarPorCorreo(email) {
-    if (!email || typeof email !== 'string') return;
-
-    const correoMin = email.toLowerCase().trim();
-
-    if (correoMin.endsWith('@gmail.com')) {
-        alert('Notificación: iniciando con una cuenta de Google.');
-    } else if (correoMin.endsWith('@levelup.com')) {
-        alert('Notificación: Acceso administrador corporativo.');
-    } else if (correoMin.endsWith('@duocuc.cl')) {
-        alert('Notificación: Has obtenido un 20% de descuento por ser parte de Duoc.');
-    }
-}
-
-const inputCorreo = document.getElementById('email');
-
-if (inputCorreo) {
-    inputCorreo.addEventListener('change', function () {
-        notificarPorCorreo(this.value);
-    });
-}
-
-
-
     // Mostrar mensaje de registro exitoso
     mensaje.classList.remove("d-none");
     mensaje.classList.remove("alert-danger");
