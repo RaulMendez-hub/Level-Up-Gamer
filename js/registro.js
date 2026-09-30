@@ -15,70 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const region = document.getElementById("region");
     const comuna = document.getElementById("comuna");
 
-    const direccion = document.getElementById("direccion");
-
-    const avisoDescuento = document.getElementById("avisoDescuento");
-
-    const mensajeRegistro = document.getElementById("mensajeRegistro");
-
-
-    //regiones y comunas de ejemplo
-    const regiones = {
-        "Metropolitana de Santiago": [
-            "Santiago",
-            "Maipú",
-            "Puente Alto",
-            "Las Condes",
-            "San Bernardo",
-            "La Florida",
-            "Ñuñoa"
-        ],
-
-        "Valparaíso": [
-            "Valparaíso",
-            "Viña del Mar",
-            "Quilpué",
-            "Villa Alemana"
-        ],
-
-        "Biobío": [
-            "Concepción",
-            "Talcahuano",
-            "Los Ángeles",
-            "Chiguayante"
-        ],
-
-        "Maule": [
-            "Talca",
-            "Curicó",
-            "Linares",
-            "Molina"
-        ],
-
-        "O'Higgins": [
-            "Rancagua",
-            "San Fernando",
-            "Rengo",
-            "Machalí"
-        ]
-    };
-
-
-    // se agregan las regiones al select
-    Object.keys(regiones).forEach(function (nombreRegion) {
-        const option = document.createElement("option");
-
-        option.value = nombreRegion;
-        option.textContent = nombreRegion;
-        region.appendChild(option);
-
-    });
-
-
-    //cambiar comunas según la región seleccionada
-    region.addEventListener("change", function () {
-
-        comuna.innerHTML ='<option value="">Selecciona una comuna</option>';
+    // Mostrar mensaje de registro exitoso
+    mensaje.classList.remove("d-none");
+    mensaje.classList.remove("alert-danger");
+    mensaje.classList.add("alert-success");
+    mensaje.textContent = "¡Registro exitoso! Tu cuenta ha sido creada.";
 
         const comunas = regiones[region.value] || [];
 
@@ -349,4 +290,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-});
+

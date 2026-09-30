@@ -1,0 +1,243 @@
+    :root {
+      --gaming-green: #39ff14;
+      --gaming-dark: #080b10;
+      --gaming-card: #111720;
+      --gaming-border: #293342;
+      --muted: #8e99a8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #17251b 0%, #090c11 45%, #050609 100%);
+      color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar-gamer {
+      background: rgba(5, 7, 10, .97);
+      border-bottom: 1px solid rgba(57, 255, 20, .2);
+    }
+
+    .brand-gamer {
+      color: var(--gaming-green) !important;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+    }
+
+    .navbar-gamer .nav-link {
+      color: #d9dee5;
+      transition: .2s ease;
+    }
+
+    .navbar-gamer .nav-link:hover,
+    .navbar-gamer .nav-link.active {
+      color: var(--gaming-green);
+    }
+
+    .profile-wrapper {
+      padding: 55px 15px;
+    }
+
+    .profile-card {
+      max-width: 1050px;
+      margin: auto;
+      background: rgba(17, 23, 32, .97);
+      border: 1px solid var(--gaming-border);
+      border-radius: 22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+      overflow: hidden;
+    }
+
+    .profile-header {
+      padding: 35px;
+      background: linear-gradient(135deg, rgba(57,255,20,.12), transparent 60%);
+      border-bottom: 1px solid var(--gaming-border);
+    }
+
+    .profile-title {
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    .profile-title span {
+      color: var(--gaming-green);
+    }
+
+    .subtitle {
+      color: #aeb6c2;
+      margin: 0;
+    }
+
+    .profile-body {
+      padding: 35px;
+    }
+
+    .stats-box {
+      background: linear-gradient(135deg, rgba(57,255,20,.10), rgba(57,255,20,.02));
+      border: 1px solid rgba(57,255,20,.25);
+      border-radius: 14px;
+      padding: 17px 20px;
+      margin-bottom: 30px;
+    }
+
+    .points-number {
+      color: var(--gaming-green);
+      font-size: 1.35rem;
+      font-weight: 800;
+    }
+
+    .badge-discount {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(57,255,20,.1);
+      color: var(--gaming-green);
+      border: 1px solid rgba(57,255,20,.3);
+      font-size: .82rem;
+      margin-left: 8px;
+    }
+
+    .form-label {
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    .form-control,
+    .form-select {
+      background: #0b1017;
+      border: 1px solid #394454;
+      color: #fff;
+      min-height: 46px;
+      border-radius: 10px;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+      background: #0b1017;
+      color: #fff;
+      border-color: var(--gaming-green);
+      box-shadow: 0 0 0 .2rem rgba(57,255,20,.12);
+    }
+
+    .form-control:disabled {
+      background: #151a22;
+      color: #7d8794;
+    }
+
+    .form-select option {
+      background: #0b1017;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: .82rem;
+      margin-top: 6px;
+    }
+
+    .error-msg {
+      color: #ff6b6b;
+      font-size: .82rem;
+      min-height: 18px;
+      margin-top: 4px;
+    }
+
+    .section-title {
+      color: var(--gaming-green);
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .preferences-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 15px;
+    }
+
+    .preference-item {
+      background: #0b1017;
+      border: 1px solid #303a48;
+      border-radius: 12px;
+      padding: 13px 15px;
+      transition: .2s ease;
+    }
+
+    .preference-item:hover {
+      border-color: rgba(57,255,20,.55);
+      transform: translateY(-1px);
+    }
+
+    .preference-item input {
+      accent-color: var(--gaming-green);
+      margin-right: 8px;
+    }
+
+    .preference-item label {
+      cursor: pointer;
+      color: #dce1e8;
+      font-size: .92rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--gaming-border);
+      margin: 28px 0;
+    }
+
+    .btn-gamer {
+      min-height: 48px;
+      border: none;
+      border-radius: 10px;
+      background: var(--gaming-green);
+      color: #050609;
+      font-weight: 800;
+      letter-spacing: .5px;
+    }
+
+    .btn-gamer:hover {
+      background: #52ff32;
+      color: #050609;
+      box-shadow: 0 8px 25px rgba(57,255,20,.18);
+    }
+
+    .btn-logout {
+      min-height: 46px;
+      border-radius: 10px;
+      border: 1px solid #485362;
+      background: transparent;
+      color: #dce1e8;
+    }
+
+    .btn-logout:hover {
+      border-color: #ff5252;
+      color: #ff7070;
+    }
+
+    .empty-card {
+      max-width: 650px;
+      margin: auto;
+      text-align: center;
+      padding: 45px 35px;
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .site-footer {
+      color: var(--muted);
+      text-align: center;
+      padding: 0 15px 35px;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 767px) {
+      .profile-wrapper { padding: 25px 10px; }
+      .profile-header, .profile-body { padding: 25px 20px; }
+      .preferences-grid { grid-template-columns: 1fr; }
+    }
