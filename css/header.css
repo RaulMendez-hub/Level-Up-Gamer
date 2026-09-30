@@ -10,7 +10,6 @@
     align-items: center;
     gap: 12px;
 }
-
 #header .wsp{
     text-decoration: none;
     color: #39FF14;
@@ -81,7 +80,6 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
-
 .dropdown-menu :hover{
     color: #39FF14;
 }
@@ -92,13 +90,11 @@
     justify-content: center;
     align-items: center;
 }
-
 .dropdown .drop{
     text-decoration: none;
     color: #1a1a1a;
     font-weight: 500;
 }
-
 .dropdown:hover .dropdown-menu {
     display: block; 
 }

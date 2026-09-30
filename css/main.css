@@ -20,7 +20,6 @@
 .card img{
     max-width: 250px;
 }
-
 .card{
     display: flex;
     flex-direction: row;
@@ -34,7 +33,6 @@
   color: gray;
   font-family: 'Roboto';
 }
-
 h1{
   font-size:1.5rem;
   font-weight:600;
