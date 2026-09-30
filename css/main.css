@@ -137,3 +137,6 @@ button{
 .nota{
   color: #39FF14;
 }
+#avisoDescuento{
+  display: none;
+}
