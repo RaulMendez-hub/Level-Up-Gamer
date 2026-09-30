@@ -1,0 +1,88 @@
+.registro-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 20px 80px;
+}
+
+.registro-box {
+    width: 100%;
+    max-width: 500px;
+}
+
+.registro-box h1 {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-family: 'Orbitron';
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.registro-box .sub {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registro-box .form-label {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.registro-box .form-control {
+    background-color: gainsboro;
+    border: 1px solid #39FF14;
+    border-radius: 40px;
+    padding: 10px 15px;
+    color: black;
+}
+
+.registro-box .form-control {
+    background-color: gainsboro;
+    border-color: #39FF14;
+    box-shadow: 0 0 8px rgba(57, 255, 20, 0.5);
+}
+
+.registro-box .form-check-label {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.registro-box .form-check-input {
+    cursor: pointer;
+}
+
+.registro-box .btn-primary {
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.registro-box .btn-primary {
+    background-color: #39FF14;
+    color: black;
+}
+
+.login-link {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #39FF14;
+    text-decoration: none;
+}
+
+.login-link a {
+    text-decoration: underline;
+}
+
+#mensajeRegistro {
+    text-align: center;
+}

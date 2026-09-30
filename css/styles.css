@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --gray-50: #f7f8f9;
   --gray-100: #f3f4f6;
@@ -18,3 +19,35 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+=======
+body{
+    padding: 10px 100px 10px 100px;
+    border: 1px solid gray;
+    height: 500vh;             
+    box-sizing: border-box;   
+    margin: 0;                 
+    background-color: black;
+    font-family: 'Roboto';
+}
+span{
+    color:white;
+}
+
+header{
+    font-family: 'Orbitron';
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+footer{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+>>>>>>> c8f533ff18d1fc84beaa71a27b0a698023586186
