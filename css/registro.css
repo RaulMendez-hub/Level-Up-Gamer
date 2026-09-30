@@ -1,0 +1,215 @@
+:root {
+    --gaming-green: #39ff14;
+    --gaming-dark: #090b10;
+    --gaming-card: #11151d;
+    --gaming-border: #29313d;
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+.registro-container {
+    min-height: 100vh;
+    padding: 55px 15px;
+    background:
+        radial-gradient(
+            circle at top,
+            #17221b 0%,
+            #090b10 45%,
+            #050609 100%
+        );
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+/* CAJA DEL REGISTRO */
+.registro-box {
+    width: 100%;
+    max-width: 1050px;
+    padding: 35px;
+    background: rgba(17, 21, 29, 0.96);
+    border: 1px solid var(--gaming-border);
+    border-radius: 22px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+
+}
+
+/* TITULO */
+.registro-box h1 {
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+
+}
+
+.registro-box h1 span {
+    color: var(--gaming-green);
+
+}
+
+.sub {
+    color: #aeb6c2;
+    margin-bottom: 30px;
+
+}
+
+/* LABELS */
+.form-label {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+}
+
+.required {
+    color: #ff5252;
+
+}
+
+/* INPUTS */
+.registro-box .form-control,.registro-box .form-select {
+    background-color: #0b0f15;
+    border: 1px solid #37404d;
+    color: #ffffff;
+    min-height: 46px;
+    border-radius: 10px;
+
+}
+
+.registro-box .form-control::placeholder {
+    color: #687382;
+
+}
+
+.registro-box .form-control:focus,.registro-box .form-select:focus {
+    background-color: #0b0f15;
+    color: #ffffff;
+    border-color: var(--gaming-green);
+    box-shadow: 0 0 0 0.2rem rgba(57, 255, 20, 0.12);
+
+}
+
+.registro-box .form-select option {
+    background-color: #0b0f15;
+    color: #ffffff;
+
+}
+
+/* TEXTO DE AYUDA */
+.form-hint {
+    color: #7f8997;
+    font-size: 0.82rem;
+    margin-top: 6px;
+
+}
+
+/* ERRORES */
+.invalid-feedback {
+    font-size: 0.82rem;
+
+}
+
+/* DESCUENTO */
+.badge-discount {
+    display: none;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(57, 255, 20, 0.1);
+    color: var(--gaming-green);
+    border: 1px solid rgba(57, 255, 20, 0.25);
+    font-size: 0.86rem;
+
+}
+
+/* CHECKBOX */
+.form-check-input {
+    background-color: #0b0f15;
+    border-color: #37404d;
+
+}
+
+.form-check-input:checked {
+    background-color: var(--gaming-green);
+    border-color: var(--gaming-green);
+
+}
+
+.form-check-label {
+    color: #d9dee5;
+
+}
+
+/* BOTON */
+.btn-registro {
+    min-height: 48px;
+    border: none;
+    border-radius: 10px;
+    background: var(--gaming-green);
+    color: #050609;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.btn-registro:hover {
+    background: #52ff32;
+    color: #050609;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(57, 255, 20, 0.18);
+
+}
+
+/* MENSAJE FINAL */
+#mensajeRegistro {
+    text-align: center;
+
+}
+
+/* LINK LOGIN */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #7f8997;
+
+}
+
+.login-link a {
+    color: var(--gaming-green);
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+
+    .registro-container {
+        padding: 25px 10px;
+
+    }
+
+    .registro-box {
+        padding: 25px 20px;
+        border-radius: 15px;
+
+    }
+
+    .registro-box h1 {
+        font-size: 1.55rem;
+        
+    }
+
+}
+

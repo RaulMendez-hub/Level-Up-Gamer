@@ -1,0 +1,133 @@
+.titulo1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.carousel{
+    margin-top: 50px;
+}
+
+.titulo2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card img{
+    max-width: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-text{
+  color: gray;
+  font-family: 'Roboto';
+}
+
+h1{
+  font-size:1.5rem;
+  font-weight:600;
+  margin:0 0 6px;
+  letter-spacing:0.01em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+
+p.sub{
+  margin:0 0 28px;
+  color:white;
+  font-size:0.95rem;
+}
+
+label{
+  display:block;
+  font-size:0.85rem;
+  margin-bottom:6px;
+  color:gray;
+}
+
+.field{ 
+  margin-bottom:18px;
+}
+
+input[type="email"], input[type="password"]{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid #39FF14;
+  background: gainsboro;
+  color:black;
+  outline:none;
+  border-radius: 40px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  font-weight:600;
+  background:#1E90FF;
+  color: white;
+  border:none;
+  cursor:pointer;
+  border-radius: 40px;
+}
+
+
+.contenedor-contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.maps {
+  width: 1000px;
+  height: 500px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.info-tecnico {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: white;
+}
+
+.contacto-tecnico.titulo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.wsp-tecnico{
+  text-decoration: none;
+  color: #39FF14;
+}
+.pago{
+  display: flex;
+  justify-content: center;
+  background-color: #2563eb;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius:40px;
+  margin-top: 20px;
+  max-width: 300px;
+}
