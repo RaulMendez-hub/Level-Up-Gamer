@@ -151,19 +151,16 @@
                 <!-- correo -->
                 <div class="mb-3">
                     <label for="email" class="form-label"> Correo electrónico <span class="required">*</span> </label>
-                    <!-- Agregamos un patrón de validación nativa (pattern) para que solo acepte los 3 dominios permitidos -->
                     <input type="email" 
                         class="form-control" 
                         id="email" 
                         maxlength="100" 
                         placeholder="nombre@duoc.cl" 
-                        pattern="[a-zA-Z0-9._%+-]+@(duoc\.cl|profesor\.duoc\.cl|gmail\.com)$"
+                        pattern="[a-zA-Z0-9._%+-]+@(duocuc\.cl|profesor\.duoc\.cl|gmail\.com)$"
                         required>
 
-                    <div class="form-hint"> Solo se aceptan correos @duoc.cl, @profesor.duoc.cl o @gmail.com </div>
                     <div class="invalid-feedback"> Ingresa un correo válido </div>
 
-                    <!-- Le añadimos style="display: none;" para que empiece oculto obligatoriamente -->
                     <div id="avisoDescuento" class="discount"> 
                         ¡Con tu correo Duoc obtienes 20% de descuento de por vida! 
                     </div>
