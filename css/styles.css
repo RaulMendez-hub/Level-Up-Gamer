@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-:root {
-  --gray-50: #f7f8f9;
-  --gray-100: #f3f4f6;
-  --gray-200: #e6e7ea;
-  --gray-300: #d2d5da;
-  --gray-400: #9fa4ac;
-  --gray-500: #6e737d;
-  --gray-600: #4e5660;
-  --gray-700: #3b424d;
-  --gray-800: #222a34;
-  --gray-900: #141924;
-  --gray-950: #050810;
-}
-
-body {
-  background: var(--gray-50);
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-=======
 body{
     padding: 10px 100px 10px 100px;
     border: 1px solid gray;
@@ -50,4 +28,3 @@ footer{
   align-items: center;
   justify-content: center;
 }
->>>>>>> c8f533ff18d1fc84beaa71a27b0a698023586186

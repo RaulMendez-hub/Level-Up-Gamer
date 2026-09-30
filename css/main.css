@@ -1,71 +1,3 @@
-<<<<<<< HEAD
-#hero {
-  position: relative;
-  padding: 60px;
-  clip-path: inset(0px -9999px 0 -9999px);
-}
-
-#hero img.background {
-  position: absolute;
-}
-
-#hero img.big-image {
-  top: -15%;
-  right: -10%;
-  /* right: 0;
-    bottom: 0;
-    left: 0; */
-}
-
-#hero img.pets {
-  top: -20%;
-  right: 4%;
-  z-index: 999;
-  width: 600px;
-  height: 600px;
-}
-
-#hero .info {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 50%;
-}
-
-#hero .info span {
-  color: var(--primary);
-}
-
-#hero .info h1 {
-  font-size: 54px;
-}
-
-#categories {
-  background-color: white;
-  padding: 60px;
-}
-
-#categories .container {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
-
-#categories h3 {
-  font-size: 40px;
-}
-
-#categories .cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card .card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-=======
 .titulo1{
     margin-top: 5px;
     display: flex;
@@ -208,4 +140,3 @@ button{
 #avisoDescuento {
     display: none;
 }
->>>>>>> c8f533ff18d1fc84beaa71a27b0a698023586186
