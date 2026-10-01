@@ -21,20 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     mensaje.classList.add("alert-success");
     mensaje.textContent = "¡Registro exitoso! Tu cuenta ha sido creada.";
 
-        const comunas = regiones[region.value] || [];
-
-        comunas.forEach(function (nombreComuna) {
-            const option = document.createElement("option");
-
-            option.value = nombreComuna;
-            option.textContent = nombreComuna;
-            comuna.appendChild(option);
-
-        });
-
-        comuna.disabled = !region.value;
-        comuna.classList.remove("is-invalid");
-
     });
 
 
@@ -202,29 +188,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         }
 
-
-        //region
-        if (!region.value) {
-
-            region.classList.add("is-invalid");
-            formularioValido = false;
-        } else {
-            region.classList.remove("is-invalid");
-            region.classList.add("is-valid");
-
-        }
-
-
-        //comuna
-        if (!comuna.value) {
-
-            comuna.classList.add("is-invalid");
-            formularioValido = false;
-        } else {
-            comuna.classList.remove("is-invalid");
-            comuna.classList.add("is-valid");
-
-        }
 
 
         //validacion de boostrap
